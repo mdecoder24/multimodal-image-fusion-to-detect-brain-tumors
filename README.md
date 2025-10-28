@@ -51,14 +51,10 @@ Navigate to `python scripts/Transfer_Learning.ipynb` and provide paths to regist
 Setup Flask and install dependencies and run:
 `python app.py`
 In continuation to the above GUI approach the fused image gets saved in `static/fusion.jpg`
-
 ***
-
 ### Image Segmentation
-
 #### Watershed Algorithm
 Watershed segmentation is a region-based technique that utilizes image morphology. It requires selection of at least one marker (“seed” point) interior to each object of the image, including the background as a separate object. The markers are chosen by an operator or are provided by an automatic procedure that takes into account the application-specific knowledge of the objects. Once the objects are marked, they can be grown using a morphological watershed transformation
-
 #### Code
 1. **Python Notebook** -
 Navigate to `python scripts/Image Segmentation.ipynb` and provide paths to registered set of MRI and CT Images.
@@ -66,16 +62,5 @@ Navigate to `python scripts/Image Segmentation.ipynb` and provide paths to regis
 Setup Flask and install dependencies and run:
 `python app.py`
 In continuation to the above GUI approach the fused image gets saved in `static/segmented.jpg`
-
 ***
-
-#### Desktop Application
-All the above functionalities have also been implemented on a [Desktop Application](https://github.com/beccaboo-31/Multimodal-Image-Fusion-Desktop-App/) using Tkinter.
-
-***
-#### Contributors
-* [Aayush Parekh](https://github.com/aparekh7)
-* [Neha Patil](https://github.com/Nehaa03)
-* [Rebecca Biju](https://github.com/beccaboo-31)
-* [Ashna Shah](https://github.com/ashna111)
 
